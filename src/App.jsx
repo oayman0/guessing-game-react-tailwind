@@ -4,55 +4,55 @@ import { ChevronRight, Users, Smartphone, Trophy, Shuffle, Eye, Plus, Minus, Rot
 
 // Game data - we'll expand this incrementally
 const GAME_CATEGORIES = [
-  { id: 'football-players', name: 'Football Players', icon: '⚽', color: 'bg-green-500' },
-  { id: 'countries', name: 'Countries', icon: '🌍', color: 'bg-blue-500' },
-  { id: 'movies', name: 'Movies', icon: '🎬', color: 'bg-purple-500' },
-  { id: 'famous-people', name: 'Famous People', icon: '⭐', color: 'bg-yellow-500' },
-  { id: 'fruits-veggies', name: 'Fruits & Veggies', icon: '🍎', color: 'bg-red-500' },
-  { id: 'video-games', name: 'Video Games', icon: '🎮', color: 'bg-indigo-500' },
-  { id: 'supermarket', name: 'Supermarket Items', icon: '🛒', color: 'bg-orange-500' },
-  { id: 'capitals', name: 'World Capitals', icon: '🏛️', color: 'bg-gray-500' },
-  { id: 'tv-series', name: 'TV Series', icon: '📺', color: 'bg-pink-500' },
-  { id: 'football-teams', name: 'Football Teams', icon: '🏆', color: 'bg-emerald-500' },
+  { id: 'football-players', name: 'لاعبين كرة قدم', icon: '⚽', color: 'bg-green-500' },
+  { id: 'countries', name: 'بلاد', icon: '🌍', color: 'bg-blue-500' },
+  { id: 'movies', name: 'أفلام', icon: '🎬', color: 'bg-purple-500' },
+  { id: 'famous-people', name: 'مشاهير', icon: '⭐', color: 'bg-yellow-500' },
+  { id: 'fruits-veggies', name: 'خضروات وفواكه', icon: '🍎', color: 'bg-red-500' },
+  { id: 'video-games', name: 'ألعاب إلكترونية', icon: '🎮', color: 'bg-indigo-500' },
+  { id: 'supermarket', name: 'فى السوبر ماركت', icon: '🛒', color: 'bg-orange-500' },
+  { id: 'capitals', name: 'عواصم حول العالم', icon: '🏛️', color: 'bg-gray-500' },
+  { id: 'tv-series', name: 'مسلسلات', icon: '📺', color: 'bg-pink-500' },
+  { id: 'football-teams', name: 'فرق كرة القدم', icon: '🏆', color: 'bg-emerald-500' },
 ];
 
 // Sample data for each category (10 items each)
 const CATEGORY_DATA = {
   'football-players': [
-    { id: 1, name: 'Lionel Messi', details: 'Argentine forward, 8-time Ballon d\'Or winner', image: 'https://via.placeholder.com/300x400/0084FF/FFFFFF?text=Messi' },
-    { id: 2, name: 'Cristiano Ronaldo', details: 'Portuguese forward, 5-time Ballon d\'Or winner', image: 'https://via.placeholder.com/300x400/FF6B6B/FFFFFF?text=Ronaldo' },
-    { id: 3, name: 'Kylian Mbappé', details: 'French forward, Paris Saint-Germain', image: 'https://via.placeholder.com/300x400/4ECDC4/FFFFFF?text=Mbappe' },
-    { id: 4, name: 'Erling Haaland', details: 'Norwegian striker, Manchester City', image: 'https://via.placeholder.com/300x400/45B7D1/FFFFFF?text=Haaland' },
-    { id: 5, name: 'Kevin De Bruyne', details: 'Belgian midfielder, Manchester City', image: 'https://via.placeholder.com/300x400/96CEB4/FFFFFF?text=De+Bruyne' },
-    { id: 6, name: 'Neymar Jr', details: 'Brazilian forward, Al-Hilal', image: 'https://via.placeholder.com/300x400/FFEAA7/000000?text=Neymar' },
-    { id: 7, name: 'Mohamed Salah', details: 'Egyptian winger, Liverpool FC', image: 'https://via.placeholder.com/300x400/FD79A8/FFFFFF?text=Salah' },
-    { id: 8, name: 'Virgil van Dijk', details: 'Dutch defender, Liverpool FC', image: 'https://via.placeholder.com/300x400/6C5CE7/FFFFFF?text=Van+Dijk' },
-    { id: 9, name: 'Luka Modrić', details: 'Croatian midfielder, Real Madrid', image: 'https://via.placeholder.com/300x400/A29BFE/FFFFFF?text=Modric' },
-    { id: 10, name: 'Robert Lewandowski', details: 'Polish striker, FC Barcelona', image: 'https://via.placeholder.com/300x400/E17055/FFFFFF?text=Lewandowski' },
+    { id: 1, name: 'Lionel Messi', details: 'Argentine forward, 8-time Ballon d\'Or winner', image: 'https://placehold.co/300x400/0084FF/FFFFFF?text=Messi' },
+    { id: 2, name: 'Cristiano Ronaldo', details: 'Portuguese forward, 5-time Ballon d\'Or winner', image: 'https://placehold.co/300x400/FF6B6B/FFFFFF?text=Ronaldo' },
+    { id: 3, name: 'Kylian Mbappé', details: 'French forward, Paris Saint-Germain', image: 'https://placehold.co/300x400/4ECDC4/FFFFFF?text=Mbappe' },
+    { id: 4, name: 'Erling Haaland', details: 'Norwegian striker, Manchester City', image: 'https://placehold.co/300x400/45B7D1/FFFFFF?text=Haaland' },
+    { id: 5, name: 'Kevin De Bruyne', details: 'Belgian midfielder, Manchester City', image: 'https://placehold.co/300x400/96CEB4/FFFFFF?text=De+Bruyne' },
+    { id: 6, name: 'Neymar Jr', details: 'Brazilian forward, Al-Hilal', image: 'https://placehold.co/300x400/FFEAA7/000000?text=Neymar' },
+    { id: 7, name: 'Mohamed Salah', details: 'Egyptian winger, Liverpool FC', image: 'https://placehold.co/300x400/FD79A8/FFFFFF?text=Salah' },
+    { id: 8, name: 'Virgil van Dijk', details: 'Dutch defender, Liverpool FC', image: 'https://placehold.co/300x400/6C5CE7/FFFFFF?text=Van+Dijk' },
+    { id: 9, name: 'Luka Modrić', details: 'Croatian midfielder, Real Madrid', image: 'https://placehold.co/300x400/A29BFE/FFFFFF?text=Modric' },
+    { id: 10, name: 'Robert Lewandowski', details: 'Polish striker, FC Barcelona', image: 'https://placehold.co/300x400/E17055/FFFFFF?text=Lewandowski' },
   ],
   'countries': [
-    { id: 1, name: 'Japan', details: 'Island nation in East Asia, known for technology and culture', image: 'https://via.placeholder.com/300x400/FF6B6B/FFFFFF?text=Japan' },
-    { id: 2, name: 'Brazil', details: 'Largest country in South America, famous for football and Amazon', image: 'https://via.placeholder.com/300x400/4ECDC4/FFFFFF?text=Brazil' },
-    { id: 3, name: 'Norway', details: 'Scandinavian country known for fjords and northern lights', image: 'https://via.placeholder.com/300x400/45B7D1/FFFFFF?text=Norway' },
-    { id: 4, name: 'Egypt', details: 'Ancient civilization, home to pyramids and the Nile River', image: 'https://via.placeholder.com/300x400/FFEAA7/000000?text=Egypt' },
-    { id: 5, name: 'Australia', details: 'Continent country, known for unique wildlife and outback', image: 'https://via.placeholder.com/300x400/96CEB4/FFFFFF?text=Australia' },
-    { id: 6, name: 'Canada', details: 'Second largest country by area, known for maple syrup', image: 'https://via.placeholder.com/300x400/FD79A8/FFFFFF?text=Canada' },
-    { id: 7, name: 'India', details: 'Most populous country, birthplace of yoga and curry', image: 'https://via.placeholder.com/300x400/6C5CE7/FFFFFF?text=India' },
-    { id: 8, name: 'Iceland', details: 'Nordic island nation known for geysers and glaciers', image: 'https://via.placeholder.com/300x400/A29BFE/FFFFFF?text=Iceland' },
-    { id: 9, name: 'Morocco', details: 'North African country, gateway between Africa and Europe', image: 'https://via.placeholder.com/300x400/E17055/FFFFFF?text=Morocco' },
-    { id: 10, name: 'South Korea', details: 'East Asian country, global leader in technology and K-pop', image: 'https://via.placeholder.com/300x400/00B894/FFFFFF?text=S.Korea' },
+    { id: 1, name: 'Japan', details: 'Island nation in East Asia, known for technology and culture', image: 'https://placehold.co/300x400/FF6B6B/FFFFFF?text=Japan' },
+    { id: 2, name: 'Brazil', details: 'Largest country in South America, famous for football and Amazon', image: 'https://placehold.co/300x400/4ECDC4/FFFFFF?text=Brazil' },
+    { id: 3, name: 'Norway', details: 'Scandinavian country known for fjords and northern lights', image: 'https://placehold.co/300x400/45B7D1/FFFFFF?text=Norway' },
+    { id: 4, name: 'Egypt', details: 'Ancient civilization, home to pyramids and the Nile River', image: 'https://placehold.co/300x400/FFEAA7/000000?text=Egypt' },
+    { id: 5, name: 'Australia', details: 'Continent country, known for unique wildlife and outback', image: 'https://placehold.co/300x400/96CEB4/FFFFFF?text=Australia' },
+    { id: 6, name: 'Canada', details: 'Second largest country by area, known for maple syrup', image: 'https://placehold.co/300x400/FD79A8/FFFFFF?text=Canada' },
+    { id: 7, name: 'India', details: 'Most populous country, birthplace of yoga and curry', image: 'https://placehold.co/300x400/6C5CE7/FFFFFF?text=India' },
+    { id: 8, name: 'Iceland', details: 'Nordic island nation known for geysers and glaciers', image: 'https://placehold.co/300x400/A29BFE/FFFFFF?text=Iceland' },
+    { id: 9, name: 'Morocco', details: 'North African country, gateway between Africa and Europe', image: 'https://placehold.co/300x400/E17055/FFFFFF?text=Morocco' },
+    { id: 10, name: 'South Korea', details: 'East Asian country, global leader in technology and K-pop', image: 'https://placehold.co/300x400/00B894/FFFFFF?text=S.Korea' },
   ],
   'movies': [
-    { id: 1, name: 'The Godfather', details: '1972 crime epic directed by Francis Ford Coppola', image: 'https://via.placeholder.com/300x400/2D3436/FFFFFF?text=Godfather' },
-    { id: 2, name: 'Titanic', details: '1997 romantic disaster film starring Leonardo DiCaprio', image: 'https://via.placeholder.com/300x400/0984e3/FFFFFF?text=Titanic' },
-    { id: 3, name: 'Avatar', details: '2009 sci-fi epic set on alien world Pandora', image: 'https://via.placeholder.com/300x400/00cec9/FFFFFF?text=Avatar' },
-    { id: 4, name: 'The Dark Knight', details: '2008 Batman film featuring Heath Ledger as Joker', image: 'https://via.placeholder.com/300x400/2d3436/FFFFFF?text=Dark+Knight' },
-    { id: 5, name: 'Forrest Gump', details: '1994 drama starring Tom Hanks as unlikely hero', image: 'https://via.placeholder.com/300x400/6c5ce7/FFFFFF?text=Forrest+Gump' },
-    { id: 6, name: 'Inception', details: '2010 mind-bending thriller about dreams within dreams', image: 'https://via.placeholder.com/300x400/a29bfe/FFFFFF?text=Inception' },
-    { id: 7, name: 'The Lion King', details: '1994 Disney animated classic about young lion Simba', image: 'https://via.placeholder.com/300x400/fdcb6e/000000?text=Lion+King' },
-    { id: 8, name: 'Pulp Fiction', details: '1994 Tarantino crime film with non-linear narrative', image: 'https://via.placeholder.com/300x400/e17055/FFFFFF?text=Pulp+Fiction' },
-    { id: 9, name: 'The Matrix', details: '1999 sci-fi action film about simulated reality', image: 'https://via.placeholder.com/300x400/00b894/FFFFFF?text=Matrix' },
-    { id: 10, name: 'Star Wars', details: '1977 space opera that launched iconic franchise', image: 'https://via.placeholder.com/300x400/fd79a8/FFFFFF?text=Star+Wars' },
+    { id: 1, name: 'The Godfather', details: '1972 crime epic directed by Francis Ford Coppola', image: 'https://placehold.co/300x400/2D3436/FFFFFF?text=Godfather' },
+    { id: 2, name: 'Titanic', details: '1997 romantic disaster film starring Leonardo DiCaprio', image: 'https://placehold.co/300x400/0984e3/FFFFFF?text=Titanic' },
+    { id: 3, name: 'Avatar', details: '2009 sci-fi epic set on alien world Pandora', image: 'https://placehold.co/300x400/00cec9/FFFFFF?text=Avatar' },
+    { id: 4, name: 'The Dark Knight', details: '2008 Batman film featuring Heath Ledger as Joker', image: 'https://placehold.co/300x400/2d3436/FFFFFF?text=Dark+Knight' },
+    { id: 5, name: 'Forrest Gump', details: '1994 drama starring Tom Hanks as unlikely hero', image: 'https://placehold.co/300x400/6c5ce7/FFFFFF?text=Forrest+Gump' },
+    { id: 6, name: 'Inception', details: '2010 mind-bending thriller about dreams within dreams', image: 'https://placehold.co/300x400/a29bfe/FFFFFF?text=Inception' },
+    { id: 7, name: 'The Lion King', details: '1994 Disney animated classic about young lion Simba', image: 'https://placehold.co/300x400/fdcb6e/000000?text=Lion+King' },
+    { id: 8, name: 'Pulp Fiction', details: '1994 Tarantino crime film with non-linear narrative', image: 'https://placehold.co/300x400/e17055/FFFFFF?text=Pulp+Fiction' },
+    { id: 9, name: 'The Matrix', details: '1999 sci-fi action film about simulated reality', image: 'https://placehold.co/300x400/00b894/FFFFFF?text=Matrix' },
+    { id: 10, name: 'Star Wars', details: '1977 space opera that launched iconic franchise', image: 'https://placehold.co/300x400/fd79a8/FFFFFF?text=Star+Wars' },
   ],
 };
 
@@ -114,7 +114,7 @@ function App() {
         <nav className="w-full p-4">
           <div className="text-center">
             <h1 className="text-2xl font-bold text-white cursor-pointer" onClick={() => setCurrentPage('landing')}>
-              🎯 GuessIt
+              🎯 خمن صح
             </h1>
           </div>
         </nav>
@@ -122,8 +122,8 @@ function App() {
         {/* Main Content */}
         <div className="flex-1 flex flex-col justify-center items-center p-6 text-center">
           <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 w-full max-w-md border border-white/20">
-            <h2 className="text-3xl font-bold text-white mb-2">Welcome to GuessIt!</h2>
-            <p className="text-white/80 mb-8">The ultimate social guessing game</p>
+            <h2 className="text-3xl font-bold text-white mb-2">جاهز للتحدى؟</h2>
+            <p className="text-white/80 mb-8">أكبر لعبة تخمين فى مصر</p>
             
             {/* Game Modes */}
             <div className="space-y-4 mb-8">
@@ -143,7 +143,7 @@ function App() {
                 type="text"
                 value={gameCode}
                 onChange={(e) => setGameCode(e.target.value.toUpperCase())}
-                placeholder="Enter game code"
+                placeholder="أدخل الكود"
                 className="w-full p-4 rounded-xl bg-white/20 border border-white/30 text-white placeholder-white/60 text-center text-lg font-mono focus:outline-none focus:ring-2 focus:ring-white/50"
               />
             </div>
@@ -153,7 +153,7 @@ function App() {
               onClick={() => setCurrentPage('categories')}
               className="w-full bg-white text-purple-600 font-bold py-4 px-6 rounded-xl hover:bg-white/90 transition-colors flex items-center justify-center space-x-2 text-lg"
             >
-              <span>Start Playing</span>
+              <span>ابدأ اللعبة</span>
               <ChevronRight className="w-5 h-5" />
             </button>
           </div>
@@ -161,7 +161,7 @@ function App() {
 
         {/* Footer */}
         <footer className="p-4 text-center text-white/60 text-sm">
-          Made with ❤️ for fun social gaming
+          صنعت فى ريمونتادا © مصر 2025 - جميع الحقوق محفوظة
         </footer>
       </div>
     );
@@ -175,14 +175,14 @@ function App() {
         <nav className="w-full p-4 bg-white shadow-sm">
           <div className="text-center">
             <h1 className="text-2xl font-bold text-gray-800 cursor-pointer" onClick={() => setCurrentPage('landing')}>
-              🎯 GuessIt
+              🎯 خمن صح
             </h1>
           </div>
         </nav>
 
         {/* Categories Grid */}
         <div className="p-6">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">Choose a Category</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">إختر النوع</h2>
           <div className="grid grid-cols-1 gap-4 max-w-md mx-auto">
             {GAME_CATEGORIES.map((category) => (
               <button
@@ -221,7 +221,7 @@ function App() {
         <nav className="w-full p-4 bg-white shadow-sm">
           <div className="text-center">
             <h1 className="text-xl font-bold text-gray-800 cursor-pointer" onClick={() => setCurrentPage('landing')}>
-              🎯 GuessIt
+              🎯 خمن صح
             </h1>
             <p className="text-sm text-gray-600">{selectedCategory.name}</p>
           </div>
@@ -311,7 +311,7 @@ function App() {
               ) : (
                 <div className="text-center">
                   <h3 className="text-2xl font-bold text-gray-400 mb-2">???</h3>
-                  <p className="text-gray-400">Ask questions to guess!</p>
+                  <p className="text-gray-400">دلوقتى وقت الأسئلة</p>
                 </div>
               )}
             </div>
@@ -324,7 +324,7 @@ function App() {
               className="bg-blue-500 text-white py-4 px-6 rounded-xl font-semibold flex items-center justify-center space-x-2 hover:bg-blue-600 transition-colors"
             >
               <Shuffle className="w-5 h-5" />
-              <span>New Card</span>
+              <span>كارت جديد</span>
             </button>
             
             <button
@@ -332,7 +332,7 @@ function App() {
               className="bg-purple-500 text-white py-4 px-6 rounded-xl font-semibold flex items-center justify-center space-x-2 hover:bg-purple-600 transition-colors"
             >
               <Eye className="w-5 h-5" />
-              <span>{cardRevealed ? 'Hide' : 'Reveal'}</span>
+              <span>{cardRevealed ? 'إخفاء' : 'عرض'}</span>
             </button>
           </div>
 
@@ -341,14 +341,14 @@ function App() {
             onClick={() => setCurrentPage('categories')}
             className="w-full mt-4 bg-gray-200 text-gray-700 py-3 px-6 rounded-xl font-medium hover:bg-gray-300 transition-colors"
           >
-            ← Back to Categories
+            ← الرجوع للقائمة السابقة
           </button>
         </div>
       </div>
     );
   }
 
-  return <div>Loading...</div>;
+  return <div>تحميل...</div>;
 }
 
 export default App;
