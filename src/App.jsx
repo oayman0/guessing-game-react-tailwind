@@ -19,27 +19,127 @@ const GAME_CATEGORIES = [
 // Sample data for each category (10 items each)
 const CATEGORY_DATA = {
   'football-players': [
-    { id: 1, name: 'ليونيل ميسي', details: 'لاعب أرجنتيني، اشتهر في برشلونة، فاز بالكرة الذهبية 8 مرات.', image: 'https://placehold.co/400x300/0084FF/FFFFFF?text=ميسي' },
-    { id: 2, name: 'كريستيانو رونالدو', details: 'لاعب برتغالي، فاز بالكرة الذهبية 5 مرات.', image: 'https://placehold.co/400x300/FF6B6B/FFFFFF?text=رونالدو' },
-    { id: 3, name: 'كيليان مبابي', details: 'لاعب فرنسي، نجم باريس وريال مدريد.', image: 'https://placehold.co/400x300/4ECDC4/FFFFFF?text=مبابي' },
-    { id: 4, name: 'إيرلينغ هالاند', details: 'مهاجم نرويجي، نجم مانشستر سيتي.', image: 'https://placehold.co/400x300/45B7D1/FFFFFF?text=هالاند' },
-    { id: 5, name: 'كيفين دي بروين', details: 'لاعب وسط بلجيكي، اشتهر في مانشستر سيتي.', image: 'https://placehold.co/400x300/96CEB4/FFFFFF?text=دي+بروين' },
-    { id: 6, name: 'نيمار جونيور', details: 'لاعب برازيلي، لعب في الهلال السعودي.', image: 'https://placehold.co/400x300/FFEAA7/000000?text=نيمار' },
-    { id: 7, name: 'محمد صلاح', details: 'جناح مصري، نجم ليفربول.', image: 'https://placehold.co/400x300/FD79A8/FFFFFF?text=صلاح' },
-    { id: 8, name: 'فيرجيل فان دايك', details: 'مدافع هولندي، يلعب في ليفربول.', image: 'https://placehold.co/400x300/6C5CE7/FFFFFF?text=فان+دايك' },
-    { id: 9, name: 'لوكا مودريتش', details: 'لاعب وسط كرواتي، نجم ريال مدريد.', image: 'https://placehold.co/400x300/A29BFE/FFFFFF?text=مودريتش' },
-    { id: 10, name: 'روبرت ليفاندوفسكي', details: 'مهاجم بولندي، يلعب في برشلونة.', image: 'https://placehold.co/400x300/E17055/FFFFFF?text=ليفاندوفسكي' },
-    { id: 11, name: 'هاري كين', details: 'مهاجم إنجليزي، يلعب في بايرن ميونخ.', image: 'https://placehold.co/400x300/00B894/FFFFFF?text=كين' },
-    { id: 12, name: 'سون هيونغ-مين', details: 'جناح كوري جنوبي، نجم توتنهام.', image: 'https://placehold.co/400x300/FF9F43/FFFFFF?text=سون' },
-    { id: 13, name: 'كريم بنزيما', details: 'مهاجم فرنسي، فاز بالكرة الذهبية 2022.', image: 'https://placehold.co/400x300/2D3436/FFFFFF?text=بنزيما' },
-    { id: 14, name: 'أنخيل دي ماريا', details: 'جناح أرجنتيني، اشتهر في ريال مدريد.', image: 'https://placehold.co/400x300/0984E3/FFFFFF?text=دي+ماريا' },
-    { id: 15, name: 'تياغو سيلفا', details: 'مدافع برازيلي، نجم تشيلسي السابق.', image: 'https://placehold.co/400x300/00CEC9/FFFFFF?text=سيلفا' },
-    { id: 16, name: 'فينيسيوس جونيور', details: 'جناح برازيلي، نجم ريال مدريد.', image: 'https://placehold.co/400x300/6C5CE7/FFFFFF?text=فينيسيوس' },
-    { id: 17, name: 'جوشوا كيميتش', details: 'لاعب وسط ألماني، نجم بايرن ميونخ.', image: 'https://placehold.co/400x300/FDCB6E/000000?text=كيميتش' },
-    { id: 18, name: 'رودري', details: 'لاعب وسط إسباني، نجم مانشستر سيتي.', image: 'https://placehold.co/400x300/E17055/FFFFFF?text=رودري' },
-    { id: 19, name: 'أليسون بيكر', details: 'حارس مرمى برازيلي، يلعب في ليفربول.', image: 'https://placehold.co/400x300/FD79A8/FFFFFF?text=أليسون' },
-    { id: 20, name: 'جواو فيليكس', details: 'مهاجم برتغالي، لعب في برشلونة.', image: 'https://placehold.co/400x300/A29BFE/FFFFFF?text=فيليكس' },
-  ],
+        {
+      "id": 1,
+      "name": "محمد صلاح",
+      "details": "لاعب مصري، جناح مهاجم، يُعدّ من أفضل لاعبي العالم في مركزه.",
+      "image": "images/football-players/1.jpg"
+    },
+    {
+      "id": 7,
+      "name": "سيزار أزبيليكويتا",
+      "details": "لاعب إسباني، مدافع، قائد سابق لنادي تشيلسي.",
+      "image": "images/football-players/7.jpg"
+    },
+    {
+      "id": 10,
+      "name": "ألان شيرار",
+      "details": "لاعب إنجليزي، هداف تاريخي للدوري الإنجليزي الممتاز.",
+      "image": "images/football-players/10.jpg"
+    },
+    {
+      "id": 2,
+      "name": "زلاتان إبراهيموفيتش",
+      "details": "لاعب سويدي، مهاجم قوي، اشتهر بمهاراته الفنية.",
+      "image": "images/football-players/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "محمد أبو تريكة",
+      "details": "لاعب مصري، صانع ألعاب، يُلقب بـ 'أمير القلوب'.",
+      "image": "images/football-players/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "سيرخيو أغويرو",
+      "details": "لاعب أرجنتيني، مهاجم، هداف مانشستر سيتي التاريخي.",
+      "image": "images/football-players/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "مايكل أرتيتا",
+      "details": "مدرب إسباني ولاعب سابق، قاد آرسنال كمدرب.",
+      "image": "images/football-players/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "كريستيان إريكسن",
+      "details": "لاعب دنماركي، خط وسط، معروف بقدرته على التمرير.",
+      "image": "images/football-players/6.jpg"
+    },
+    {
+      "id": 8,
+      "name": "أشلي كول",
+      "details": "لاعب إنجليزي، ظهير أيسر، يُعتبر من أفضل المدافعين في مركزه.",
+      "image": "images/football-players/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "باتريس إيفرا",
+      "details": "لاعب فرنسي، مدافع، اشتهر في مانشستر يونايتد.",
+      "image": "images/football-players/9.jpg"
+    },
+    {
+      "id": 11,
+      "name": "جوردي ألبا",
+      "details": "لاعب إسباني، ظهير أيسر، معروف بتقدمه الهجومي.",
+      "image": "images/football-players/11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "جوليان ألفاريز",
+      "details": "لاعب أرجنتيني، مهاجم، فاز بكأس العالم مع الأرجنتين.",
+      "image": "images/football-players/12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "أليكسيس سانشيز",
+      "details": "لاعب تشيلي، مهاجم، اشتهر بسرعته ومهاراته.",
+      "image": "images/football-players/13.jpg"
+    },
+    {
+      "id": 14,
+      "name": "داني إنجز",
+      "details": "لاعب إنجليزي، مهاجم، معروف بإنهاء الهجمات.",
+      "image": "images/football-players/14.jpg"
+    },
+    {
+      "id": 15,
+      "name": "نيكولاس أنيلكا",
+      "details": "لاعب فرنسي، مهاجم، لعب في العديد من الأندية الكبيرة.",
+      "image": "images/football-players/15.jpg"
+    },
+    {
+      "id": 16,
+      "name": "أندريس إنييستا",
+      "details": "لاعب إسباني، خط وسط، أسطورة برشلونة، فاز بكأس العالم.",
+      "image": "images/football-players/16.jpg"
+    },
+    {
+      "id": 17,
+      "name": "بيير إيميريك أوباميانغ",
+      "details": "لاعب غابوني، مهاجم، يتمتع بسرعه فائقة.",
+      "image": "images/football-players/17.jpg"
+    },
+    {
+      "id": 18,
+      "name": "مارتن أوديجارد",
+      "details": "لاعب نرويجي، خط وسط، قائد نادي آرسنال.",
+      "image": "images/football-players/18.jpg"
+    },
+    {
+      "id": 19,
+      "name": "مسعود أوزيل",
+      "details": "لاعب ألماني، صانع ألعاب، معروف بتمريراته السحرية.",
+      "image": "images/football-players/19.jpg"
+    },
+    {
+      "id": 20,
+      "name": "جاي جاي أوكوشا",
+      "details": "لاعب نيجيري، خط وسط، معروف بمهاراته الفردية الرائعة.",
+      "image": "images/football-players/20.jpg"
+    },
+   ],
   'football-teams': [
     { id: 1, name: 'ريال مدريد', details: 'نادي إسباني، فاز بدوري أبطال أوروبا 15 مرة.', image: 'https://placehold.co/400x300/FF6B6B/FFFFFF?text=ريال+مدريد' },
     { id: 2, name: 'برشلونة', details: 'نادي إسباني، معروف بالتيكي تاكا وتاريخه العريق.', image: 'https://placehold.co/400x300/4ECDC4/FFFFFF?text=برشلونة' },

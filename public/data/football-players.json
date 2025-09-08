@@ -1,0 +1,1026 @@
+{
+  "football-players": [
+    {
+      "id": 1,
+      "name": "محمد صلاح",
+      "details": "لاعب مصري، جناح مهاجم، يُعدّ من أفضل لاعبي العالم في مركزه.",
+      "image": "images/football-players/1.jpg"
+    },
+    {
+      "id": 7,
+      "name": "سيزار أزبيليكويتا",
+      "details": "لاعب إسباني، مدافع، قائد سابق لنادي تشيلسي.",
+      "image": "images/football-players/7.jpg"
+    },
+    {
+      "id": 10,
+      "name": "ألان شيرار",
+      "details": "لاعب إنجليزي، هداف تاريخي للدوري الإنجليزي الممتاز.",
+      "image": "images/football-players/10.jpg"
+    },
+    {
+      "id": 2,
+      "name": "زلاتان إبراهيموفيتش",
+      "details": "لاعب سويدي، مهاجم قوي، اشتهر بمهاراته الفنية.",
+      "image": "images/football-players/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "محمد أبو تريكة",
+      "details": "لاعب مصري، صانع ألعاب، يُلقب بـ 'أمير القلوب'.",
+      "image": "images/football-players/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "سيرخيو أغويرو",
+      "details": "لاعب أرجنتيني، مهاجم، هداف مانشستر سيتي التاريخي.",
+      "image": "images/football-players/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "مايكل أرتيتا",
+      "details": "مدرب إسباني ولاعب سابق، قاد آرسنال كمدرب.",
+      "image": "images/football-players/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "كريستيان إريكسن",
+      "details": "لاعب دنماركي، خط وسط، معروف بقدرته على التمرير.",
+      "image": "images/football-players/6.jpg"
+    },
+    {
+      "id": 8,
+      "name": "أشلي كول",
+      "details": "لاعب إنجليزي، ظهير أيسر، يُعتبر من أفضل المدافعين في مركزه.",
+      "image": "images/football-players/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "باتريس إيفرا",
+      "details": "لاعب فرنسي، مدافع، اشتهر في مانشستر يونايتد.",
+      "image": "images/football-players/9.jpg"
+    },
+    {
+      "id": 11,
+      "name": "جوردي ألبا",
+      "details": "لاعب إسباني، ظهير أيسر، معروف بتقدمه الهجومي.",
+      "image": "images/football-players/11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "جوليان ألفاريز",
+      "details": "لاعب أرجنتيني، مهاجم، فاز بكأس العالم مع الأرجنتين.",
+      "image": "images/football-players/12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "أليكسيس سانشيز",
+      "details": "لاعب تشيلي، مهاجم، اشتهر بسرعته ومهاراته.",
+      "image": "images/football-players/13.jpg"
+    },
+    {
+      "id": 14,
+      "name": "داني إنجز",
+      "details": "لاعب إنجليزي، مهاجم، معروف بإنهاء الهجمات.",
+      "image": "images/football-players/14.jpg"
+    },
+    {
+      "id": 15,
+      "name": "نيكولاس أنيلكا",
+      "details": "لاعب فرنسي، مهاجم، لعب في العديد من الأندية الكبيرة.",
+      "image": "images/football-players/15.jpg"
+    },
+    {
+      "id": 16,
+      "name": "أندريس إنييستا",
+      "details": "لاعب إسباني، خط وسط، أسطورة برشلونة، فاز بكأس العالم.",
+      "image": "images/football-players/16.jpg"
+    },
+    {
+      "id": 17,
+      "name": "بيير إيميريك أوباميانغ",
+      "details": "لاعب غابوني، مهاجم، يتمتع بسرعه فائقة.",
+      "image": "images/football-players/17.jpg"
+    },
+    {
+      "id": 18,
+      "name": "مارتن أوديجارد",
+      "details": "لاعب نرويجي، خط وسط، قائد نادي آرسنال.",
+      "image": "images/football-players/18.jpg"
+    },
+    {
+      "id": 19,
+      "name": "مسعود أوزيل",
+      "details": "لاعب ألماني، صانع ألعاب، معروف بتمريراته السحرية.",
+      "image": "images/football-players/19.jpg"
+    },
+    {
+      "id": 20,
+      "name": "جاي جاي أوكوشا",
+      "details": "لاعب نيجيري، خط وسط، معروف بمهاراته الفردية الرائعة.",
+      "image": "images/football-players/20.jpg"
+    },
+    {
+      "id": 21,
+      "name": "مايكل أوين",
+      "details": "لاعب إنجليزي، مهاجم، فاز بالكرة الذهبية.",
+      "image": "images/football-players/21.jpg"
+    },
+    {
+      "id": 22,
+      "name": "صامويل إيتو",
+      "details": "لاعب كاميروني، مهاجم، هداف تاريخي لأفريقيا.",
+      "image": "images/football-players/22.jpg"
+    },
+    {
+      "id": 23,
+      "name": "أوزيبيو",
+      "details": "لاعب برتغالي، مهاجم، أسطورة كرة القدم.",
+      "image": "images/football-players/23.jpg"
+    },
+    {
+      "id": 24,
+      "name": "غابرييل باتيستوتا",
+      "details": "لاعب أرجنتيني، مهاجم، معروف بقوة تسديداته.",
+      "image": "images/football-players/24.jpg"
+    },
+    {
+      "id": 25,
+      "name": "روبيرتو باجيو",
+      "details": "لاعب إيطالي، مهاجم، يُلقب بـ 'الذيل المقدس'.",
+      "image": "images/football-players/25.jpg"
+    },
+    {
+      "id": 26,
+      "name": "باسم",
+      "details": "لاعب مصري، مدافع، اشتهر في النادي الأهلي.",
+      "image": "images/football-players/26.jpg"
+    },
+    {
+      "id": 27,
+      "name": "مايكل بالاك",
+      "details": "لاعب ألماني، خط وسط، معروف بقدراته القيادية.",
+      "image": "images/football-players/27.jpg"
+    },
+    {
+      "id": 28,
+      "name": "ماريو بالوتيلي",
+      "details": "لاعب إيطالي، مهاجم، معروف بشخصيته المثيرة للجدل.",
+      "image": "images/football-players/28.jpg"
+    },
+    {
+      "id": 29,
+      "name": "برونو فيرنانديز",
+      "details": "لاعب برتغالي، خط وسط، قائد نادي مانشستر يونايتد.",
+      "image": "images/football-players/29.jpg"
+    },
+    {
+      "id": 30,
+      "name": "بغداد بونجاح",
+      "details": "لاعب جزائري، مهاجم، هداف نادي السد القطري.",
+      "image": "images/football-players/30.jpg"
+    },
+    {
+      "id": 31,
+      "name": "ميشيل بلاتيني",
+      "details": "لاعب فرنسي، خط وسط، أسطورة كرة القدم الأوروبية.",
+      "image": "images/football-players/31.jpg"
+    },
+    {
+      "id": 32,
+      "name": "سعيد بن رحمة",
+      "details": "لاعب جزائري، جناح، معروف بمهاراته الفردية.",
+      "image": "images/football-players/32.jpg"
+    },
+    {
+      "id": 33,
+      "name": "أشرف بن شرقي",
+      "details": "لاعب مغربي، جناح، اشتهر في نادي الزمالك.",
+      "image": "images/football-players/33.jpg"
+    },
+    {
+      "id": 34,
+      "name": "إسماعيل بن ناصر",
+      "details": "لاعب جزائري، خط وسط، يلعب في نادي ميلان الإيطالي.",
+      "image": "images/football-players/34.jpg"
+    },
+    {
+      "id": 35,
+      "name": "كريم بنزيما",
+      "details": "لاعب فرنسي، مهاجم، فاز بالكرة الذهبية.",
+      "image": "images/football-players/35.jpg"
+    },
+    {
+      "id": 36,
+      "name": "بول بوغبا",
+      "details": "لاعب فرنسي، خط وسط، فاز بكأس العالم مع فرنسا.",
+      "image": "images/football-players/36.jpg"
+    },
+    {
+      "id": 37,
+      "name": "سيرجيو بوسكيتس",
+      "details": "لاعب إسباني، خط وسط دفاعي، أسطورة برشلونة.",
+      "image": "images/football-players/37.jpg"
+    },
+    {
+      "id": 38,
+      "name": "جيانلويجي بوفون",
+      "details": "لاعب إيطالي، حارس مرمى، أسطورة عالمية.",
+      "image": "images/football-players/38.jpg"
+    },
+    {
+      "id": 39,
+      "name": "ياسين بونو",
+      "details": "لاعب مغربي، حارس مرمى، اشتهر في كأس العالم 2022.",
+      "image": "images/football-players/39.jpg"
+    },
+    {
+      "id": 40,
+      "name": "كارليس بويول",
+      "details": "لاعب إسباني، مدافع، قائد برشلونة السابق.",
+      "image": "images/football-players/40.jpg"
+    },
+    {
+      "id": 41,
+      "name": "بيتر تشيك",
+      "details": "لاعب تشيكي، حارس مرمى، اشتهر في تشيلسي.",
+      "image": "images/football-players/41.jpg"
+    },
+    {
+      "id": 42,
+      "name": "بيتر كراوتش",
+      "details": "لاعب إنجليزي، مهاجم طويل القامة، معروف بأسلوبه الفريد.",
+      "image": "images/football-players/42.jpg"
+    },
+    {
+      "id": 43,
+      "name": "أندريا بيرلو",
+      "details": "لاعب إيطالي، خط وسط، معروف بتمريراته الدقيقة.",
+      "image": "images/football-players/43.jpg"
+    },
+    {
+      "id": 44,
+      "name": "برناردو سيلفا",
+      "details": "لاعب برتغالي، خط وسط، اشتهر في مانشستر سيتي.",
+      "image": "images/football-players/44.jpg"
+    },
+    {
+      "id": 45,
+      "name": "إيفان بيريشيتش",
+      "details": "لاعب كرواتي، جناح، لعب في عدة أندية أوروبية كبيرة.",
+      "image": "images/football-players/45.jpg"
+    },
+    {
+      "id": 46,
+      "name": "جورج بست",
+      "details": "لاعب بريطاني، مهاجم، أسطورة مانشستر يونايتد.",
+      "image": "images/football-players/46.jpg"
+    },
+    {
+      "id": 47,
+      "name": "ديفيد بيكهام",
+      "details": "لاعب إنجليزي، خط وسط، أيقونة كرة القدم.",
+      "image": "images/football-players/47.jpg"
+    },
+    {
+      "id": 48,
+      "name": "جيرارد بيكيه",
+      "details": "لاعب إسباني، مدافع، أسطورة نادي برشلونة.",
+      "image": "images/football-players/48.jpg"
+    },
+    {
+      "id": 49,
+      "name": "أداما تراوري",
+      "details": "لاعب مالي، جناح، معروف بقوته البدنية وسرعته.",
+      "image": "images/football-players/49.jpg"
+    },
+    {
+      "id": 50,
+      "name": "ديفيد تريزيجيه",
+      "details": "لاعب فرنسي، مهاجم، هداف تاريخي لنادي يوفنتوس.",
+      "image": "images/football-players/50.jpg"
+    },
+    {
+      "id": 51,
+      "name": "محمود تريزيجيه",
+      "details": "لاعب مصري، جناح، يلعب في الدوري التركي.",
+      "image": "images/football-players/51.jpg"
+    },
+    {
+      "id": 52,
+      "name": "تشابي ألونسو",
+      "details": "لاعب إسباني، خط وسط، اشتهر في ليفربول وريال مدريد.",
+      "image": "images/football-players/52.jpg"
+    },
+    {
+      "id": 53,
+      "name": "تشافي هيرنانديز",
+      "details": "لاعب إسباني، خط وسط، مدرب برشلونة الحالي.",
+      "image": "images/football-players/53.jpg"
+    },
+    {
+      "id": 54,
+      "name": "فرانشيسكو توتي",
+      "details": "لاعب إيطالي، مهاجم، أسطورة نادي روما.",
+      "image": "images/football-players/54.jpg"
+    },
+    {
+      "id": 55,
+      "name": "فرناندو توريس",
+      "details": "لاعب إسباني، مهاجم، اشتهر في ليفربول وأتلتيكو مدريد.",
+      "image": "images/football-players/55.jpg"
+    },
+    {
+      "id": 56,
+      "name": "توماس بارتي",
+      "details": "لاعب غاني، خط وسط، يلعب في نادي آرسنال.",
+      "image": "images/football-players/56.jpg"
+    },
+    {
+      "id": 57,
+      "name": "تياغو سيلفا",
+      "details": "لاعب برازيلي، مدافع، قائد باريس سان جيرمان السابق.",
+      "image": "images/football-players/57.jpg"
+    },
+    {
+      "id": 58,
+      "name": "كارلوس تيفيز",
+      "details": "لاعب أرجنتيني، مهاجم، لعب في العديد من الأندية الكبيرة.",
+      "image": "images/football-players/58.jpg"
+    },
+    {
+      "id": 59,
+      "name": "أنطوان غريزمان",
+      "details": "لاعب فرنسي، مهاجم، فاز بكأس العالم مع فرنسا.",
+      "image": "images/football-players/59.jpg"
+    },
+    {
+      "id": 60,
+      "name": "سيرج جنابري",
+      "details": "لاعب ألماني، جناح، يلعب في نادي بايرن ميونخ.",
+      "image": "images/football-players/60.jpg"
+    },
+    {
+      "id": 61,
+      "name": "جو كول",
+      "details": "لاعب إنجليزي، خط وسط، اشتهر في تشيلسي.",
+      "image": "images/football-players/61.jpg"
+    },
+    {
+      "id": 62,
+      "name": "ماريو غوتزه",
+      "details": "لاعب ألماني، خط وسط، صاحب هدف فوز ألمانيا بكأس العالم.",
+      "image": "images/football-players/62.jpg"
+    },
+    {
+      "id": 63,
+      "name": "دييجو غودين",
+      "details": "لاعب أوروجواي، مدافع، قائد أتلتيكو مدريد السابق.",
+      "image": "images/football-players/63.jpg"
+    },
+    {
+      "id": 64,
+      "name": "جيلبرتو سيلفا",
+      "details": "لاعب برازيلي، خط وسط، اشتهر في آرسنال.",
+      "image": "images/football-players/64.jpg"
+    },
+    {
+      "id": 65,
+      "name": "أشرف حكيمي",
+      "details": "لاعب مغربي، ظهير أيمن، يلعب في باريس سان جيرمان.",
+      "image": "images/football-players/65.jpg"
+    },
+    {
+      "id": 66,
+      "name": "أحمد حجازي",
+      "details": "لاعب مصري، مدافع، يلعب في الدوري السعودي.",
+      "image": "images/football-players/66.jpg"
+    },
+    {
+      "id": 67,
+      "name": "حسام غالي",
+      "details": "لاعب مصري، خط وسط، قائد نادي الأهلي.",
+      "image": "images/football-players/67.jpg"
+    },
+    {
+      "id": 68,
+      "name": "هادي خشبة",
+      "details": "لاعب مصري، خط وسط، اشتهر في النادي الأهلي.",
+      "image": "images/football-players/68.jpg"
+    },
+    {
+      "id": 69,
+      "name": "رود خوليت",
+      "details": "لاعب هولندي، خط وسط، أسطورة ميلان.",
+      "image": "images/football-players/69.jpg"
+    },
+    {
+      "id": 70,
+      "name": "ستيوارت دالاس",
+      "details": "لاعب أيرلندي شمالي، جناح، اشتهر في ليدز يونايتد.",
+      "image": "images/football-players/70.jpg"
+    },
+    {
+      "id": 71,
+      "name": "داني ألفيس",
+      "details": "لاعب برازيلي، ظهير أيمن، أسطورة برشلونة.",
+      "image": "images/football-players/71.jpg"
+    },
+    {
+      "id": 72,
+      "name": "إدين دجيكو",
+      "details": "لاعب بوسني، مهاجم، اشتهر في الدوري الإيطالي.",
+      "image": "images/football-players/72.jpg"
+    },
+    {
+      "id": 73,
+      "name": "أنخيل دي ماريا",
+      "details": "لاعب أرجنتيني، جناح، فاز بكأس العالم مع الأرجنتين.",
+      "image": "images/football-players/73.jpg"
+    },
+    {
+      "id": 74,
+      "name": "أنطونيو دي ناتالي",
+      "details": "لاعب إيطالي، مهاجم، هداف تاريخي لأودينيزي.",
+      "image": "images/football-players/74.jpg"
+    },
+    {
+      "id": 75,
+      "name": "باولو ديبالا",
+      "details": "لاعب أرجنتيني، مهاجم، يلعب في نادي روما.",
+      "image": "images/football-players/75.jpg"
+    },
+    {
+      "id": 76,
+      "name": "مارسيل ديسايي",
+      "details": "لاعب فرنسي، مدافع، فاز بكأس العالم مع فرنسا.",
+      "image": "images/football-players/76.jpg"
+    },
+    {
+      "id": 77,
+      "name": "ديفيد سيلفا",
+      "details": "لاعب إسباني، خط وسط، أسطورة مانشستر سيتي.",
+      "image": "images/football-players/77.jpg"
+    },
+    {
+      "id": 78,
+      "name": "ديلي آلي",
+      "details": "لاعب إنجليزي، خط وسط، اشتهر في توتنهام هوتسبير.",
+      "image": "images/football-players/78.jpg"
+    },
+    {
+      "id": 79,
+      "name": "عثمان ديمبيلي",
+      "details": "لاعب فرنسي، جناح، معروف بسرعته ومهاراته.",
+      "image": "images/football-players/79.jpg"
+    },
+    {
+      "id": 80,
+      "name": "دييغو كوستا",
+      "details": "لاعب إسباني برازيلي، مهاجم، اشتهر في أتلتيكو مدريد.",
+      "image": "images/football-players/80.jpg"
+    },
+    {
+      "id": 81,
+      "name": "رابح ماجر",
+      "details": "لاعب جزائري، مهاجم، أسطورة الكرة الجزائرية.",
+      "image": "images/football-players/81.jpg"
+    },
+    {
+      "id": 82,
+      "name": "سيرجيو راموس",
+      "details": "لاعب إسباني، مدافع، قائد ريال مدريد السابق.",
+      "image": "images/football-players/82.jpg"
+    },
+    {
+      "id": 83,
+      "name": "آرين روبن",
+      "details": "لاعب هولندي، جناح، اشتهر بسرعته وتسديداته.",
+      "image": "images/football-players/83.jpg"
+    },
+    {
+      "id": 84,
+      "name": "خاميس رودريغيز",
+      "details": "لاعب كولومبي، خط وسط، اشتهر في كأس العالم 2014.",
+      "image": "images/football-players/84.jpg"
+    },
+    {
+      "id": 85,
+      "name": "رومان سايس",
+      "details": "لاعب مغربي، مدافع، قائد المنتخب المغربي.",
+      "image": "images/football-players/85.jpg"
+    },
+    {
+      "id": 86,
+      "name": "رونالدو نازاريو",
+      "details": "لاعب برازيلي، مهاجم، يُلقب بـ 'الظاهرة'.",
+      "image": "images/football-players/86.jpg"
+    },
+    {
+      "id": 87,
+      "name": "رونالدينيو",
+      "details": "لاعب برازيلي، صانع ألعاب، معروف بمهاراته السحرية.",
+      "image": "images/football-players/87.jpg"
+    },
+    {
+      "id": 88,
+      "name": "واين روني",
+      "details": "لاعب إنجليزي، مهاجم، هداف مانشستر يونايتد التاريخي.",
+      "image": "images/football-players/88.jpg"
+    },
+    {
+      "id": 89,
+      "name": "ريتشارليسون",
+      "details": "لاعب برازيلي، مهاجم، يلعب في توتنهام هوتسبير.",
+      "image": "images/football-players/89.jpg"
+    },
+    {
+      "id": 90,
+      "name": "ريفالدو",
+      "details": "لاعب برازيلي، خط وسط، فاز بالكرة الذهبية.",
+      "image": "images/football-players/90.jpg"
+    },
+    {
+      "id": 91,
+      "name": "جياني ريفيرا",
+      "details": "لاعب إيطالي، خط وسط، أسطورة ميلان.",
+      "image": "images/football-players/91.jpg"
+    },
+    {
+      "id": 92,
+      "name": "خوان ريكيلمي",
+      "details": "لاعب أرجنتيني، صانع ألعاب، أسطورة بوكا جونيورز.",
+      "image": "images/football-players/92.jpg"
+    },
+    {
+      "id": 93,
+      "name": "خافيير زانيتي",
+      "details": "لاعب أرجنتيني، مدافع، أسطورة إنتر ميلان.",
+      "image": "images/football-players/93.jpg"
+    },
+    {
+      "id": 94,
+      "name": "ويلفريد زاها",
+      "details": "لاعب إيفواري، جناح، اشتهر في كريستال بالاس.",
+      "image": "images/football-players/94.jpg"
+    },
+    {
+      "id": 95,
+      "name": "زين الدين زيدان",
+      "details": "لاعب فرنسي، خط وسط، أسطورة عالمية، فاز بالكرة الذهبية.",
+      "image": "images/football-players/95.jpg"
+    },
+    {
+      "id": 96,
+      "name": "زين الدين زيدان",
+      "details": "لاعب فرنسي، خط وسط، أسطورة عالمية، فاز بالكرة الذهبية.",
+      "image": "images/football-players/96.jpg"
+    },
+    {
+      "id": 97,
+      "name": "سالم الدوسري",
+      "details": "لاعب سعودي، جناح، اشتهر في نادي الهلال.",
+      "image": "images/football-players/97.jpg"
+    },
+    {
+      "id": 98,
+      "name": "رحيم ستيرلينج",
+      "details": "لاعب إنجليزي، جناح، يلعب في تشيلسي.",
+      "image": "images/football-players/98.jpg"
+    },
+    {
+      "id": 99,
+      "name": "إسلام سليماني",
+      "details": "لاعب جزائري، مهاجم، هداف تاريخي للمنتخب الجزائري.",
+      "image": "images/football-players/99.jpg"
+    },
+    {
+      "id": 100,
+      "name": "لويس سواريز",
+      "details": "لاعب أوروجواي، مهاجم، اشتهر في ليفربول وبرشلونة.",
+      "image": "images/football-players/100.jpg"
+    },
+    {
+      "id": 101,
+      "name": "أولي غونار سولشاير",
+      "details": "مدرب نرويجي ولاعب سابق، اشتهر في مانشستر يونايتد.",
+      "image": "images/football-players/101.jpg"
+    },
+    {
+      "id": 102,
+      "name": "سون هيونج مين",
+      "details": "لاعب كوري جنوبي، جناح، قائد توتنهام هوتسبير.",
+      "image": "images/football-players/102.jpg"
+    },
+    {
+      "id": 103,
+      "name": "طارق حامد",
+      "details": "لاعب مصري، خط وسط دفاعي، اشتهر في نادي الزمالك.",
+      "image": "images/football-players/103.jpg"
+    },
+    {
+      "id": 104,
+      "name": "عماد متعب",
+      "details": "لاعب مصري، مهاجم، هداف تاريخي للنادي الأهلي.",
+      "image": "images/football-players/104.jpg"
+    },
+    {
+      "id": 105,
+      "name": "عمرو ذكي",
+      "details": "لاعب مصري، مهاجم، اشتهر في الدوري الإنجليزي.",
+      "image": "images/football-players/105.jpg"
+    },
+    {
+      "id": 106,
+      "name": "سيسك فابريجاس",
+      "details": "لاعب إسباني، خط وسط، لعب في آرسنال وبرشلونة.",
+      "image": "images/football-players/106.jpg"
+    },
+    {
+      "id": 107,
+      "name": "جيمي فاردي",
+      "details": "لاعب إنجليزي، مهاجم، قاد ليستر سيتي للفوز بالدوري.",
+      "image": "images/football-players/107.jpg"
+    },
+    {
+      "id": 108,
+      "name": "راداميل فالكاو",
+      "details": "لاعب كولومبي، مهاجم، يُلقب بـ 'النمر'.",
+      "image": "images/football-players/108.jpg"
+    },
+    {
+      "id": 109,
+      "name": "ماركو فان باستن",
+      "details": "لاعب هولندي، مهاجم، أسطورة ميلان.",
+      "image": "images/football-players/109.jpg"
+    },
+    {
+      "id": 110,
+      "name": "رود فان نيستلروي",
+      "details": "لاعب هولندي، مهاجم، هداف مانشستر يونايتد السابق.",
+      "image": "images/football-players/110.jpg"
+    },
+    {
+      "id": 111,
+      "name": "فلافيو أمادو",
+      "details": "لاعب برازيلي، مهاجم، اشتهر في النادي الأهلي.",
+      "image": "images/football-players/111.jpg"
+    },
+    {
+      "id": 112,
+      "name": "أرتورو فيدال",
+      "details": "لاعب تشيلي، خط وسط، لعب في يوفنتوس وبايرن ميونخ.",
+      "image": "images/football-players/112.jpg"
+    },
+    {
+      "id": 113,
+      "name": "ماركو فيراتي",
+      "details": "لاعب إيطالي، خط وسط، يلعب في باريس سان جيرمان.",
+      "image": "images/football-players/113.jpg"
+    },
+    {
+      "id": 114,
+      "name": "ريو فرديناند",
+      "details": "لاعب إنجليزي، مدافع، أسطورة مانشستر يونايتد.",
+      "image": "images/football-players/114.jpg"
+    },
+    {
+      "id": 115,
+      "name": "توماس فيرمايلين",
+      "details": "لاعب بلجيكي، مدافع، لعب في آرسنال وبرشلونة.",
+      "image": "images/football-players/115.jpg"
+    },
+    {
+      "id": 116,
+      "name": "مروان فيلايني",
+      "details": "لاعب بلجيكي، خط وسط، معروف بقوته البدنية.",
+      "image": "images/football-players/116.jpg"
+    },
+    {
+      "id": 117,
+      "name": "فيليبي لويز",
+      "details": "لاعب برازيلي، مدافع، اشتهر في أتلتيكو مدريد.",
+      "image": "images/football-players/117.jpg"
+    },
+    {
+      "id": 118,
+      "name": "باتريك فييرا",
+      "details": "لاعب فرنسي، خط وسط، أسطورة آرسنال.",
+      "image": "images/football-players/118.jpg"
+    },
+    {
+      "id": 119,
+      "name": "يانيك فيريرا كاراسكو",
+      "details": "لاعب بلجيكي، جناح، يلعب في أتلتيكو مدريد.",
+      "image": "images/football-players/119.jpg"
+    },
+    {
+      "id": 120,
+      "name": "كاكا",
+      "details": "لاعب برازيلي، خط وسط، فاز بالكرة الذهبية.",
+      "image": "images/football-players/120.jpg"
+    },
+    {
+      "id": 121,
+      "name": "خوسيه كاليخون",
+      "details": "لاعب إسباني، مهاجم، اشتهر في ريال مدريد ونابولي.",
+      "image": "images/football-players/121.jpg"
+    },
+    {
+      "id": 122,
+      "name": "إريك كانتونا",
+      "details": "لاعب فرنسي، مهاجم، أسطورة مانشستر يونايتد.",
+      "image": "images/football-players/122.jpg"
+    },
+    {
+      "id": 123,
+      "name": "نغولو كانتي",
+      "details": "لاعب فرنسي، خط وسط دفاعي، فاز بكأس العالم.",
+      "image": "images/football-players/123.jpg"
+    },
+    {
+      "id": 124,
+      "name": "يوهان كرويف",
+      "details": "لاعب هولندي، مهاجم، أسطورة عالمية.",
+      "image": "images/football-players/124.jpg"
+    },
+    {
+      "id": 125,
+      "name": "هرنان كريسبو",
+      "details": "لاعب أرجنتيني، مهاجم، لعب في العديد من الأندية الإيطالية.",
+      "image": "images/football-players/125.jpg"
+    },
+    {
+      "id": 126,
+      "name": "كريستيانو رونالدو",
+      "details": "لاعب برتغالي، فاز بالكرة الذهبية 5 مرات.",
+      "image": "images/football-players/126.jpg"
+    },
+    {
+      "id": 127,
+      "name": "ميروسلاف كلوزه",
+      "details": "لاعب ألماني، مهاجم، هداف تاريخي لكأس العالم.",
+      "image": "images/football-players/127.jpg"
+    },
+    {
+      "id": 128,
+      "name": "ريكاردو كواريزما",
+      "details": "لاعب برتغالي، جناح، معروف بمهاراته الفردية.",
+      "image": "images/football-players/128.jpg"
+    },
+    {
+      "id": 129,
+      "name": "فيليبي كوتينيو",
+      "details": "لاعب برازيلي، خط وسط، اشتهر في ليفربول.",
+      "image": "images/football-players/129.jpg"
+    },
+    {
+      "id": 130,
+      "name": "كوكي",
+      "details": "لاعب إسباني، خط وسط، قائد أتلتيكو مدريد.",
+      "image": "images/football-players/130.jpg"
+    },
+    {
+      "id": 131,
+      "name": "راندال كولو مواني",
+      "details": "لاعب فرنسي، مهاجم، يلعب في باريس سان جيرمان.",
+      "image": "images/football-players/131.jpg"
+    },
+    {
+      "id": 132,
+      "name": "جوشوا كيميتش",
+      "details": "لاعب ألماني، خط وسط، يلعب في بايرن ميونخ.",
+      "image": "images/football-players/132.jpg"
+    },
+    {
+      "id": 133,
+      "name": "روميلو لوكاكو",
+      "details": "لاعب بلجيكي، مهاجم، معروف بقوته البدنية.",
+      "image": "images/football-players/133.jpg"
+    },
+    {
+      "id": 134,
+      "name": "رافاييل لياو",
+      "details": "لاعب برتغالي، جناح، يلعب في ميلان.",
+      "image": "images/football-players/134.jpg"
+    },
+    {
+      "id": 135,
+      "name": "روبرت ليفاندوفسكي",
+      "details": "لاعب بولندي، مهاجم، يُعدّ من أفضل المهاجمين في العالم.",
+      "image": "images/football-players/135.jpg"
+    },
+    {
+      "id": 136,
+      "name": "جيسي لينجارد",
+      "details": "لاعب إنجليزي، خط وسط، اشتهر في مانشستر يونايتد.",
+      "image": "images/football-players/136.jpg"
+    },
+    {
+      "id": 137,
+      "name": "بليز ماتويدي",
+      "details": "لاعب فرنسي، خط وسط، فاز بكأس العالم مع فرنسا.",
+      "image": "images/football-players/137.jpg"
+    },
+    {
+      "id": 138,
+      "name": "هاري ماغواير",
+      "details": "لاعب إنجليزي، مدافع، قائد مانشستر يونايتد السابق.",
+      "image": "images/football-players/138.jpg"
+    },
+    {
+      "id": 139,
+      "name": "دييغو مارادونا",
+      "details": "لاعب أرجنتيني، خط وسط، أسطورة عالمية.",
+      "image": "images/football-players/139.jpg"
+    },
+    {
+      "id": 140,
+      "name": "إيميليانو مارتينيز",
+      "details": "لاعب أرجنتيني، حارس مرمى، فاز بكأس العالم مع الأرجنتين.",
+      "image": "images/football-players/140.jpg"
+    },
+    {
+      "id": 141,
+      "name": "كلاوديو ماركيزيو",
+      "details": "لاعب إيطالي، خط وسط، أسطورة يوفنتوس.",
+      "image": "images/football-players/141.jpg"
+    },
+    {
+      "id": 142,
+      "name": "ماركينيوس",
+      "details": "لاعب برازيلي، مدافع، قائد باريس سان جيرمان.",
+      "image": "images/football-players/142.jpg"
+    },
+    {
+      "id": 143,
+      "name": "باتريك ماكنير",
+      "details": "لاعب أيرلندي شمالي، مدافع، اشتهر في مانشستر يونايتد.",
+      "image": "images/football-players/143.jpg"
+    },
+    {
+      "id": 144,
+      "name": "باولو مالديني",
+      "details": "لاعب إيطالي، مدافع، أسطورة ميلان.",
+      "image": "images/football-players/144.jpg"
+    },
+    {
+      "id": 145,
+      "name": "إلياكيم مانغالا",
+      "details": "لاعب فرنسي، مدافع، لعب في مانشستر سيتي.",
+      "image": "images/football-players/145.jpg"
+    },
+    {
+      "id": 146,
+      "name": "ساديو ماني",
+      "details": "لاعب سنغالي، جناح، اشتهر في ليفربول.",
+      "image": "images/football-players/146.jpg"
+    },
+    {
+      "id": 147,
+      "name": "كيليان مبابي",
+      "details": "لاعب فرنسي، نجم باريس وريال مدريد.",
+      "image": "images/football-players/147.jpg"
+    },
+    {
+      "id": 148,
+      "name": "رياض محرز",
+      "details": "لاعب جزائري، جناح، اشتهر في مانشستر سيتي.",
+      "image": "images/football-players/148.jpg"
+    },
+    {
+      "id": 149,
+      "name": "عمر مرموش",
+      "details": "لاعب مصري، مهاجم، يلعب في الدوري الألماني.",
+      "image": "images/football-players/149.jpg"
+    },
+    {
+      "id": 150,
+      "name": "مصطفى محمد",
+      "details": "لاعب مصري، مهاجم، يلعب في الدوري الفرنسي.",
+      "image": "images/football-players/150.jpg"
+    },
+    {
+      "id": 151,
+      "name": "ألفارو موراتا",
+      "details": "لاعب إسباني، مهاجم، يلعب في أتلتيكو مدريد.",
+      "image": "images/football-players/151.jpg"
+    },
+    {
+      "id": 152,
+      "name": "ألكسندر ميتروفيتش",
+      "details": "لاعب صربي، مهاجم، هداف نادي الهلال السعودي.",
+      "image": "images/football-players/152.jpg"
+    },
+    {
+      "id": 153,
+      "name": "هنريخ مخيتاريان",
+      "details": "لاعب أرمني، خط وسط، يلعب في إنتر ميلان.",
+      "image": "images/football-players/153.jpg"
+    },
+    {
+      "id": 154,
+      "name": "أحمد حسام ميدو",
+      "details": "لاعب مصري، مهاجم، لعب في العديد من الأندية الأوروبية.",
+      "image": "images/football-players/154.jpg"
+    },
+    {
+      "id": 155,
+      "name": "ليونيل ميسي",
+      "details": "لاعب أرجنتيني، اشتهر في برشلونة، فاز بالكرة الذهبية 8 مرات.",
+      "image": "images/football-players/155.jpg"
+    },
+    {
+      "id": 156,
+      "name": "إيدر ميليتاو",
+      "details": "لاعب برازيلي، مدافع، يلعب في ريال مدريد.",
+      "image": "images/football-players/156.jpg"
+    },
+    {
+      "id": 157,
+      "name": "كيلور نافاس",
+      "details": "لاعب كوستاريكي، حارس مرمى، اشتهر في ريال مدريد.",
+      "image": "images/football-players/157.jpg"
+    },
+    {
+      "id": 158,
+      "name": "هيديتوشي ناكاتا",
+      "details": "لاعب ياباني، خط وسط، أسطورة الكرة اليابانية.",
+      "image": "images/football-players/158.jpg"
+    },
+    {
+      "id": 159,
+      "name": "بافل ندفيد",
+      "details": "لاعب تشيكي، خط وسط، فاز بالكرة الذهبية.",
+      "image": "images/football-players/159.jpg"
+    },
+    {
+      "id": 160,
+      "name": "مانويل نوير",
+      "details": "لاعب ألماني، حارس مرمى، يُعدّ من أفضل حراس المرمى في العالم.",
+      "image": "images/football-players/160.jpg"
+    },
+    {
+      "id": 161,
+      "name": "نيكو ويليامز",
+      "details": "لاعب إسباني، جناح، يلعب في أتلتيك بيلباو.",
+      "image": "images/football-players/161.jpg"
+    },
+    {
+      "id": 162,
+      "name": "نيمار",
+      "details": "لاعب برازيلي، مهاجم، نجم باريس سان جيرمان والهلال السعودي.",
+      "image": "images/football-players/162.jpg"
+    },
+    {
+      "id": 163,
+      "name": "إيدين هازارد",
+      "details": "لاعب بلجيكي، جناح، أسطورة تشيلسي.",
+      "image": "images/football-players/163.jpg"
+    },
+    {
+      "id": 164,
+      "name": "إيرلينج هالاند",
+      "details": "لاعب نرويجي، مهاجم، هداف مانشستر سيتي.",
+      "image": "images/football-players/164.jpg"
+    },
+    {
+      "id": 165,
+      "name": "جونزالو هيجواين",
+      "details": "لاعب أرجنتيني، مهاجم، لعب في ريال مدريد ويوفنتوس.",
+      "image": "images/football-players/165.jpg"
+    },
+    {
+      "id": 166,
+      "name": "أولي واتكنز",
+      "details": "لاعب إنجليزي، مهاجم، يلعب في أستون فيلا.",
+      "image": "images/football-players/166.jpg"
+    },
+    {
+      "id": 167,
+      "name": "وهبي الخزري",
+      "details": "لاعب تونسي، مهاجم، قائد المنتخب التونسي.",
+      "image": "images/football-players/167.jpg"
+    },
+    {
+      "id": 168,
+      "name": "ليف ياشين",
+      "details": "لاعب روسي، حارس مرمى، أسطورة كرة القدم.",
+      "image": "images/football-players/168.jpg"
+    },
+    {
+      "id": 169,
+      "name": "يوسف النصيري",
+      "details": "لاعب مغربي، مهاجم، يلعب في الدوري الإسباني.",
+      "image": "images/football-players/169.jpg"
+    },
+    {
+      "id": 170,
+      "name": "يوسف بلايلي",
+      "details": "لاعب جزائري، جناح، اشتهر بمهاراته الفردية.",
+      "image": "images/football-players/170.jpg"
+    }
+  ]
+}
+
+
