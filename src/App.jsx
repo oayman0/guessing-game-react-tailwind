@@ -521,11 +521,11 @@ function App() {
                <h3 className="text-2xl font-bold text-gray-800 mb-2">{selectedCategory.name}</h3>
             </div>
             {/* Image Container */}
-            <div className="aspect-[4/3] bg-gray-100 flex items-center justify-center overflow-hidden">
+            <div className="aspect-[1/1] bg-white-100 flex items-center justify-center overflow-hidden">
               <img
                 src={currentCard.image}
                 alt={cardRevealed ? currentCard.name : 'Mystery item'}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain object-position-center"
               />
             </div>
             
