@@ -4,7 +4,7 @@ import { ChevronRight, Users, Smartphone, Trophy, Shuffle, Eye, Plus, Minus, Rot
 
 // Game data - we'll expand this incrementally
 const GAME_CATEGORIES = [
-  { id: 'football-players', name: 'لاعبين كرة قدم', icon: '⚽', color: 'bg-green-400' },
+  { id: 'football-players', name: 'لاعبون كرة قدم', icon: '⚽', color: 'bg-green-400' },
   { id: 'football-teams', name: 'فرق كرة القدم', icon: '🏆', color:  'bg-blue-400'  },
   { id: 'movies', name: 'أفلام', icon: '🎬', color: 'bg-purple-400' },
   { id: 'tv-series', name: 'مسلسلات', icon: '📺', color: 'bg-yellow-400' },
@@ -207,27 +207,27 @@ const CATEGORY_DATA = {
     { id: 20, name: 'حرب أهلية', details: 'مسلسل درامي عن صراعات عائلية واجتماعية.', image: 'https://placehold.co/400x300/00B894/FFFFFF?text=حرب+أهلية' },
   ],
   'countries': [
-    { id: 1, name: 'اليابان', details: 'دولة جزرية في شرق آسيا، معروفة بالتكنولوجيا والثقافة.', image: 'https://placehold.co/400x300/FF6B6B/FFFFFF?text=اليابان' },
-    { id: 2, name: 'البرازيل', details: 'أكبر دولة في أمريكا الجنوبية، مشهورة بكرة القدم وغابات الأمازون.', image: 'https://placehold.co/400x300/4ECDC4/FFFFFF?text=البرازيل' },
-    { id: 3, name: 'النرويج', details: 'دولة إسكندنافية معروفة بالمضايق البحرية والأضواء الشمالية.', image: 'https://placehold.co/400x300/45B7D1/FFFFFF?text=النرويج' },
-    { id: 4, name: 'مصر', details: 'حضارة قديمة، موطن الأهرامات ونهر النيل.', image: 'https://placehold.co/400x300/FFEAA7/000000?text=مصر' },
-    { id: 5, name: 'أستراليا', details: 'دولة قارية، معروفة بالحياة البرية الفريدة والبراري.', image: 'https://placehold.co/400x300/96CEB4/FFFFFF?text=أستراليا' },
-    { id: 6, name: 'كندا', details: 'ثاني أكبر دولة من حيث المساحة، معروفة بشراب القيقب.', image: 'https://placehold.co/400x300/FD79A8/FFFFFF?text=كندا' },
-    { id: 7, name: 'الهند', details: 'أكثر دول العالم سكانًا، مهد اليوغا والكاري.', image: 'https://placehold.co/400x300/6C5CE7/FFFFFF?text=الهند' },
-    { id: 8, name: 'آيسلندا', details: 'دولة جزرية نوردية معروفة بالينابيع الحارة والأنهار الجليدية.', image: 'https://placehold.co/400x300/A29BFE/FFFFFF?text=آيسلندا' },
-    { id: 9, name: 'المغرب', details: 'دولة شمال إفريقية، بوابة بين إفريقيا وأوروبا.', image: 'https://placehold.co/400x300/E17055/FFFFFF?text=المغرب' },
-    { id: 10, name: 'كوريا الجنوبية', details: 'دولة شرق آسيوية، رائدة عالميًا في التكنولوجيا والكي-بوب.', image: 'https://placehold.co/400x300/00B894/FFFFFF?text=كوريا+الجنوبية' },
-    { id: 11, name: 'جنوب إفريقيا', details: 'دولة إفريقية، معروفة بتنوعها الثقافي.', image: 'https://placehold.co/400x300/FF9F43/FFFFFF?text=جنوب+إفريقيا' },
-    { id: 12, name: 'إيطاليا', details: 'دولة أوروبية، موطن الفن والتاريخ الروماني.', image: 'https://placehold.co/400x300/2D3436/FFFFFF?text=إيطاليا' },
-    { id: 13, name: 'فرنسا', details: 'دولة أوروبية، معروفة بالفنون والثقافة.', image: 'https://placehold.co/400x300/0984E3/FFFFFF?text=فرنسا' },
-    { id: 14, name: 'المكسيك', details: 'دولة أمريكا اللاتينية، معروفة بالتراث المكسيكي.', image: 'https://placehold.co/400x300/00CEC9/FFFFFF?text=المكسيك' },
-    { id: 15, name: 'نيجيريا', details: 'دولة إفريقية، مركز ثقافي واقتصادي.', image: 'https://placehold.co/400x300/6C5CE7/FFFFFF?text=نيجيريا' },
-    { id: 16, name: 'روسيا', details: 'أكبر دولة في العالم من حيث المساحة.', image: 'https://placehold.co/400x300/FDCB6E/000000?text=روسيا' },
-    { id: 17, name: 'الأرجنتين', details: 'دولة أمريكا الجنوبية، موطن التانغو.', image: 'https://placehold.co/400x300/E17055/FFFFFF?text=الأرجنتين' },
-    { id: 18, name: 'تركيا', details: 'دولة بين آسيا وأوروبا، معروفة بالتاريخ العثماني.', image: 'https://placehold.co/400x300/FD79A8/FFFFFF?text=تركيا' },
-    { id: 19, name: 'السعودية', details: 'دولة عربية، مركز ديني وثقافي.', image: 'https://placehold.co/400x300/A29BFE/FFFFFF?text=السعودية' },
-    { id: 20, name: 'إسبانيا', details: 'دولة أوروبية، معروفة بالفلامنكو والتاريخ.', image: 'https://placehold.co/400x300/00B894/FFFFFF?text=إسبانيا' },
-  ],
+    { "id": 1, "name": "اليابان", "details": "دولة جزرية في شرق آسيا، معروفة بالتكنولوجيا والثقافة.", "image": "images/countries/1.jpg" },
+  { "id": 2, "name": "البرازيل", "details": "أكبر دولة في أمريكا الجنوبية، مشهورة بكرة القدم وغابات الأمازون.", "image": "images/countries/2.jpg" },
+  { "id": 3, "name": "النرويج", "details": "دولة إسكندنافية معروفة بالمضايق البحرية والأضواء الشمالية.", "image": "images/countries/3.jpg" },
+  { "id": 4, "name": "مصر", "details": "حضارة قديمة، موطن الأهرامات ونهر النيل.", "image": "images/countries/4.jpg" },
+  { "id": 5, "name": "أستراليا", "details": "دولة قارية، معروفة بالحياة البرية الفريدة والبراري.", "image": "images/countries/5.jpg" },
+  { "id": 6, "name": "كندا", "details": "ثاني أكبر دولة من حيث المساحة، معروفة بشراب القيقب.", "image": "images/countries/6.jpg" },
+  { "id": 7, "name": "الهند", "details": "أكثر دول العالم سكانًا، مهد اليوغا والكاري.", "image": "images/countries/7.jpg" },
+  { "id": 8, "name": "آيسلندا", "details": "دولة جزرية نوردية معروفة بالينابيع الحارة والأنهار الجليدية.", "image": "images/countries/8.jpg" },
+  { "id": 9, "name": "المغرب", "details": "دولة شمال إفريقية، بوابة بين إفريقيا وأوروبا.", "image": "images/countries/9.jpg" },
+  { "id": 10, "name": "كوريا الجنوبية", "details": "دولة شرق آسيوية، رائدة عالميًا في التكنولوجيا والكي-بوب.", "image": "images/countries/10.jpg" },
+  { "id": 11, "name": "جنوب إفريقيا", "details": "دولة إفريقية، معروفة بتنوعها الثقافي.", "image": "images/countries/11.jpg" },
+  { "id": 12, "name": "إيطاليا", "details": "دولة أوروبية، موطن الفن والتاريخ الروماني.", "image": "images/countries/12.jpg" },
+  { "id": 13, "name": "فرنسا", "details": "دولة أوروبية، معروفة بالفنون والثقافة.", "image": "images/countries/13.jpg" },
+  { "id": 14, "name": "المكسيك", "details": "دولة أمريكا اللاتينية، معروفة بالتراث المكسيكي.", "image": "images/countries/14.jpg" },
+  { "id": 15, "name": "نيجيريا", "details": "دولة إفريقية، مركز ثقافي واقتصادي.", "image": "images/countries/15.jpg" },
+  { "id": 16, "name": "روسيا", "details": "أكبر دولة في العالم من حيث المساحة.", "image": "images/countries/16.jpg" },
+  { "id": 17, "name": "الأرجنتين", "details": "دولة أمريكا الجنوبية، موطن التانغو.", "image": "images/countries/17.jpg" },
+  { "id": 18, "name": "تركيا", "details": "دولة بين آسيا وأوروبا، معروفة بالتاريخ العثماني.", "image": "images/countries/18.jpg" },
+  { "id": 19, "name": "السعودية", "details": "دولة عربية، مركز ديني وثقافي.", "image": "images/countries/19.jpg" },
+  { "id": 20, "name": "إسبانيا", "details": "دولة أوروبية، معروفة بالفلامنكو والتاريخ.", "image": "images/countries/20.jpg" }
+],
   'capitals': [
     { id: 1, name: 'طوكيو', details: 'عاصمة اليابان، مركز التكنولوجيا والثقافة.', image: 'https://placehold.co/400x300/FF6B6B/FFFFFF?text=طوكيو' },
     { id: 2, name: 'برازيليا', details: 'عاصمة البرازيل، معروفة بهندستها المعمارية الحديثة.', image: 'https://placehold.co/400x300/4ECDC4/FFFFFF?text=برازيليا' },
@@ -386,7 +386,8 @@ function App() {
   const updatePlayerName = (player, name) => {
     setPlayers(prev => ({
       ...prev,
-      [player]: name || `اللاعب ${player === 'player1' ? 'الأول' : 'الثانى'}`
+      [player]: name 
+    //  || `اللاعب ${player === 'player1' ? 'الأول' : 'الثانى'}`
     }));
   };
 
@@ -403,7 +404,6 @@ function App() {
             </img>
           </div>
         </nav>
-
         {/* Main Content */}
         <div className="flex-1 flex flex-col justify-center items-center p-6 text-center">
           <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 w-full max-w-md border border-white/20">
@@ -412,16 +412,15 @@ function App() {
             
             {/* Game Modes */}
             <div className="space-y-4 mb-8">
-              <div className="flex items-center space-x-3 text-white/90">
+              <div className="flex items-center space-x-3 text-white/90 justify-end">
+                <span className="text-sm">تحدى ربعك</span>
                 <Users className="w-5 h-5" />
-                <span className="text-sm">اتحدى أصحابك</span>
               </div>
-              <div className="flex items-center space-x-3 text-white/90">
+              <div className="flex items-center space-x-3 text-white/90 justify-end">
+                <span className="text-sm">تقدر تلعب بجوال واحد أو أكثر</span>
                 <Smartphone className="w-5 h-5" />
-                <span className="text-sm">تقدر تلعب بموبايل واحد أو أكتر</span>
               </div>
             </div>
-
             {/* Game Code Input */}
             <div className="mb-6">
               <input
@@ -448,7 +447,7 @@ function App() {
 
         {/* Footer */}
         <footer className="p-4 text-center text-white/60 text-sm">
-          صنعت فى ريمونتادا © مصر 2025 - جميع الحقوق محفوظة
+         ريمونتادا © 2025 - جميع الحقوق محفوظة
         </footer>
       </div>
     );
@@ -518,10 +517,10 @@ function App() {
           {/* Game Card */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-6">
             <div className="text-center p-4">
-               <h3 className="text-2xl font-bold text-gray-800 mb-2">{selectedCategory.name}</h3>
+               <h3 className="text-2xl font-bold text-gray-800">{selectedCategory.name}</h3>
             </div>
             {/* Image Container */}
-            <div className="aspect-[1/1] bg-white-100 flex items-center justify-center overflow-hidden">
+            <div className="aspect-[1/1] bg-gray-100 flex items-center justify-center overflow-hidden">
               <img
                 src={currentCard.image}
                 alt={cardRevealed ? currentCard.name : 'Mystery item'}
@@ -539,7 +538,7 @@ function App() {
               ) : (
                 <div className="text-center">
                   <h3 className="text-2xl font-bold text-gray-400 mb-2">ابدأ التحدى</h3>
-                  <p className="text-gray-400">دلوقتى وقت الأسئلة</p>
+                  <p className="text-gray-400">الحين وقت الأسئلة</p>
                 </div>
               )}
             </div>
@@ -552,7 +551,7 @@ function App() {
               className="bg-blue-400 text-white py-4 px-6 rounded-xl font-semibold flex items-center justify-center space-x-2 hover:bg-blue-600 transition-colors"
             >
               <Shuffle className="w-5 h-5" />
-              <span>كارت جديد</span>
+              <span>بطاقة جديدة</span>
             </button>
             
             <button
@@ -575,6 +574,34 @@ function App() {
             </button>
             
             <div className="grid grid-cols-2 gap-4">
+
+                {/* Player 2 */}
+              <div className="text-center">
+                <input
+                  type="text"
+                  value={players.player2}
+                  onChange={(e) => updatePlayerName('player2', e.target.value)}
+                   onFocus={(e) => e.target.select()}
+                  className="w-full text-center font-semibold text-gray-800 bg-transparent border-b border-gray-200 focus:outline-none focus:border-blue-500 mb-2"
+                />
+                <div className="text-3xl font-bold text-purple-600 mb-2">{scores.player2}</div>
+                <div className="flex justify-center space-x-2">
+                  <button
+                    onClick={() => updateScore('player2', 1)}
+                    className="bg-green-400 text-white p-2 rounded-full hover:bg-green-500 transition-colors"
+                  >
+                    <Plus className="w-4 h-4" />
+                  </button>
+                  <button
+                    onClick={() => updateScore('player2', -1)}
+                    className="bg-red-400 text-white p-2 rounded-full hover:bg-red-500 transition-colors"
+                  >
+                    <Minus className="w-4 h-4" />
+                  </button>
+                </div>
+              </div>
+
+
               {/* Player 1 */}
               <div className="text-center">
                 <input
@@ -601,31 +628,7 @@ function App() {
                 </div>
               </div>
 
-              {/* Player 2 */}
-              <div className="text-center">
-                <input
-                  type="text"
-                  value={players.player2}
-                  onChange={(e) => updatePlayerName('player2', e.target.value)}
-                   onFocus={(e) => e.target.select()}
-                  className="w-full text-center font-semibold text-gray-800 bg-transparent border-b border-gray-200 focus:outline-none focus:border-blue-500 mb-2"
-                />
-                <div className="text-3xl font-bold text-purple-600 mb-2">{scores.player2}</div>
-                <div className="flex justify-center space-x-2">
-                  <button
-                    onClick={() => updateScore('player2', 1)}
-                    className="bg-green-400 text-white p-2 rounded-full hover:bg-green-500 transition-colors"
-                  >
-                    <Plus className="w-4 h-4" />
-                  </button>
-                  <button
-                    onClick={() => updateScore('player2', -1)}
-                    className="bg-red-400 text-white p-2 rounded-full hover:bg-red-500 transition-colors"
-                  >
-                    <Minus className="w-4 h-4" />
-                  </button>
-                </div>
-              </div>
+            
             </div>
           </div>
 
