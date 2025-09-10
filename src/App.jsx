@@ -1,7 +1,7 @@
 import './App.css'
 import React, { useState, useEffect } from 'react';
 import { ChevronRight, Users, Smartphone, Trophy, Shuffle, Eye, Plus, Minus, RotateCcw } from 'lucide-react';
-
+import { ToastContainer, toast } from 'react-toastify';
 // Game data - we'll expand this incrementally
 const GAME_CATEGORIES = [
   { id: 'football-players', name: 'لاعبون كرة قدم', icon: '⚽', color: 'bg-green-400' },
@@ -317,38 +317,48 @@ const CATEGORY_DATA = {
     { id: 20, name: 'شوكولاتة', details: '', image: 'https://placehold.co/400x300/00B894/FFFFFF?text=شوكولاتة' },
   ],
   'fruits-veggies': [
-    { id: 1, name: 'تفاح', details: '', image: 'https://placehold.co/400x300/FF6B6B/FFFFFF?text=تفاح' },
-    { id: 2, name: 'موز', details: '', image: 'https://placehold.co/400x300/4ECDC4/FFFFFF?text=موز' },
-    { id: 3, name: 'جزر', details: '', image: 'https://placehold.co/400x300/45B7D1/FFFFFF?text=جزر' },
-    { id: 4, name: 'بروكلي', details: '', image: 'https://placehold.co/400x300/FFEAA7/000000?text=بروكلي' },
-    { id: 5, name: 'فراولة', details: '', image: 'https://placehold.co/400x300/96CEB4/FFFFFF?text=فراولة' },
-    { id: 6, name: 'طماطم', details: '', image: 'https://placehold.co/400x300/FD79A8/FFFFFF?text=طماطم' },
-    { id: 7, name: 'سبانخ', details: '', image: 'https://placehold.co/400x300/6C5CE7/FFFFFF?text=سبانخ' },
-    { id: 8, name: 'مانجو', details: '', image: 'https://placehold.co/400x300/A29BFE/FFFFFF?text=مانجو' },
-    { id: 9, name: 'بطاطس', details: '', image: 'https://placehold.co/400x300/E17055/FFFFFF?text=بطاطس' },
-    { id: 10, name: 'عنب', details: '', image: 'https://placehold.co/400x300/00B894/FFFFFF?text=عنب' },
-    { id: 11, name: 'برتقال', details: '', image: 'https://placehold.co/400x300/FF9F43/FFFFFF?text=برتقال' },
-    { id: 12, name: 'خيار', details: '', image: 'https://placehold.co/400x300/2D3436/FFFFFF?text=خيار' },
-    { id: 13, name: 'كمثرى', details: '', image: 'https://placehold.co/400x300/0984E3/FFFFFF?text=كمثرى' },
-    { id: 14, name: 'بصل', details: '', image: 'https://placehold.co/400x300/00CEC9/FFFFFF?text=بصل' },
-    { id: 15, name: 'رمان', details: '', image: 'https://placehold.co/400x300/6C5CE7/FFFFFF?text=رمان' },
-    { id: 16, name: 'خس', details: '', image: 'https://placehold.co/400x300/FDCB6E/000000?text=خس' },
-    { id: 17, name: 'تين', details: '', image: 'https://placehold.co/400x300/E17055/FFFFFF?text=تين' },
-    { id: 18, name: 'كوسا', details: '', image: 'https://placehold.co/400x300/FD79A8/FFFFFF?text=كوسا' },
-    { id: 19, name: 'بطيخ', details: '', image: 'https://placehold.co/400x300/A29BFE/FFFFFF?text=بطيخ' },
-    { id: 20, name: 'فلفل', details: '', image: 'https://placehold.co/400x300/00B894/FFFFFF?text=فلفل' },
+    { id: 1, name: 'تفاح', details: '', image: 'images/fruits-veggies/1.jpg' },
+    { id: 2, name: 'موز', details: '', image: 'images/fruits-veggies/2.jpg'},
+    { id: 3, name: 'جزر', details: '', image: 'images/fruits-veggies/3.jpg'},
+    { id: 4, name: 'بروكلي', details: '', image: 'images/fruits-veggies/4.jpg'},
+    { id: 5, name: 'فراولة', details: '', image: 'images/fruits-veggies/5.jpg' },
+    { id: 6, name: 'طماطم', details: '', image: 'images/fruits-veggies/6.jpg' },
+    { id: 7, name: 'سبانخ', details: '', image: 'images/fruits-veggies/7.jpg' },
+    { id: 8, name: 'مانجو', details: '', image: 'images/fruits-veggies/8.jpg' },
+    { id: 9, name: 'بطاطس', details: '', image: 'images/fruits-veggies/9.jpg' },
+    { id: 10, name: 'عنب', details: '', image: 'images/fruits-veggies/10.jpg' },
+    { id: 11, name: 'برتقال', details: '', image: 'images/fruits-veggies/11.jpg' },
+    { id: 12, name: 'خيار', details: '', image: 'images/fruits-veggies/12.jpg'},
+    { id: 13, name: 'كمثرى', details: '', image: 'images/fruits-veggies/13.jpg' },
+    { id: 14, name: 'بصل', details: '', image: 'images/fruits-veggies/14.jpg' },
+    { id: 15, name: 'رمان', details: '', image: 'images/fruits-veggies/15.jpg' },
+    { id: 16, name: 'خس', details: '', image: 'images/fruits-veggies/16.jpg' },
+    { id: 17, name: 'تين', details: '', image: 'images/fruits-veggies/17.jpg' },
+    { id: 18, name: 'كوسا', details: '', image: 'images/fruits-veggies/18.jpg' },
+    { id: 19, name: 'بطيخ', details: '', image: 'images/fruits-veggies/19.jpg' },
+    { id: 20, name: 'فلفل', details: '', image: 'images/fruits-veggies/20.jpg' },
   ],
+};
+
+const shuffleArray = (array) => {
+  const newArray = [...array];
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+  return newArray;
 };
 
 function App() {
   const [currentPage, setCurrentPage] = useState('landing');
-  const [gameCode, setGameCode] = useState('PLAY123');
+  const [gameCode, setGameCode] = useState('');
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [currentCard, setCurrentCard] = useState(null);
   const [cardRevealed, setCardRevealed] = useState(false);
   const [players, setPlayers] = useState({ player1: 'اللاعب الأول', player2: 'اللاعب الثانى' });
   const [scores, setScores] = useState({ player1: 0, player2: 0 });
 
+  const password = "PLAY125"
   // Load saved data on mount
   useEffect(() => {
     const savedPlayers = JSON.parse(localStorage.getItem('guessing-game-players') || '{}');
@@ -364,7 +374,7 @@ function App() {
     localStorage.setItem('guessing-game-scores', JSON.stringify(scores));
   }, [players, scores]);
 
-  const shuffleCard = () => {
+  const shuffleCard1 = () => {
     if (!selectedCategory) return;
     const categoryData = CATEGORY_DATA[selectedCategory.id] || [];
     const randomCard = categoryData[Math.floor(Math.random() * categoryData.length)];
@@ -391,6 +401,69 @@ function App() {
     }));
   };
 
+
+
+
+
+  // Add these new state variables to your component
+const [availableCards, setAvailableCards] = useState([]);
+const [usedCards, setUsedCards] = useState([]);
+// Updated shuffleCard function
+const shuffleCard = () => {
+  if (!selectedCategory) return;
+  
+  const categoryData = CATEGORY_DATA[selectedCategory.id] || [];
+  
+  // If no available cards or different category, reset the deck
+  if (availableCards.length === 0 || 
+      !availableCards.some(card => categoryData.includes(card))) {
+    // Shuffle all cards for this category and reset
+    const shuffledCards = shuffleArray(categoryData);
+    setAvailableCards(shuffledCards);
+    setUsedCards([]);
+    
+    // Pick the first card from shuffled deck
+    const nextCard = shuffledCards[0];
+    setCurrentCard(nextCard);
+    setAvailableCards(shuffledCards.slice(1));
+    setUsedCards([nextCard]);
+  } else {
+    // Pick the next card from available cards
+    const nextCard = availableCards[0];
+    setCurrentCard(nextCard);
+    setAvailableCards(availableCards.slice(1));
+    setUsedCards([...usedCards, nextCard]);
+  }
+  
+  setCardRevealed(false);
+};
+// Optional: Reset deck function (you can add a button for this)
+const resetDeck = () => {
+  setAvailableCards([]);
+  setUsedCards([]);
+};
+
+// Update the category selection to reset the deck when changing categories
+const handleCategorySelect = (category) => {
+  setSelectedCategory(category);
+  setCurrentPage('game');
+  
+  // Reset deck for new category
+  setAvailableCards([]);
+  setUsedCards([]);
+  
+  // Set initial card
+  const categoryData = CATEGORY_DATA[category.id] || [];
+  if (categoryData.length > 0) {
+    const shuffledCards = shuffleArray(categoryData);
+    const firstCard = shuffledCards[0];
+    
+    setCurrentCard(firstCard);
+    setAvailableCards(shuffledCards.slice(1));
+    setUsedCards([firstCard]);
+    setCardRevealed(false);
+  }
+};
 
   // Landing Page
   if (currentPage === 'landing') {
@@ -428,14 +501,15 @@ function App() {
                 value={gameCode}
                 onChange={(e) => setGameCode(e.target.value.toUpperCase())}
                 placeholder="أدخل الكود"
+                autocomplete="on"
                 className="w-full p-4 rounded-xl bg-white/20 border border-white/30 text-white placeholder-white/60 text-center text-lg font-mono focus:outline-none focus:ring-2 focus:ring-white/50"
               />
-             <span className="text-sm text-white/90 ">Hint: PLAY123</span>
+             <span className="text-sm text-white/90 ">Hint: PLAY*</span>
             </div>
 
             {/* Enter Game Button */}
             <button
-              onClick={() => setCurrentPage('categories')}
+              onClick={() =>{if(gameCode==password) {setCurrentPage('categories')}else{toast("تأكد من الكود")}}}
               className="w-full bg-white text-purple-600 font-bold py-4 px-6 rounded-xl hover:bg-white/90 transition-colors flex items-center justify-center space-x-2 text-lg"
             >
               <span>ابدأ اللعبة</span>
@@ -447,8 +521,9 @@ function App() {
 
         {/* Footer */}
         <footer className="p-4 text-center text-white/60 text-sm">
-         ريمونتادا © 2025 - جميع الحقوق محفوظة
+         خمن صح © 2025 - جميع الحقوق محفوظة
         </footer>
+         <ToastContainer />
       </div>
     );
   }
@@ -473,17 +548,7 @@ function App() {
             {GAME_CATEGORIES.map((category) => (
               <button
                 key={category.id}
-                onClick={() => {
-                  setSelectedCategory(category);
-                  setCurrentPage('game');
-                  // Set initial card
-                  const categoryData = CATEGORY_DATA[category.id] || [];
-                  if (categoryData.length > 0) {
-                    const randomCard = categoryData[Math.floor(Math.random() * categoryData.length)];
-                    setCurrentCard(randomCard);
-                    setCardRevealed(false);
-                  }
-                }}
+          onClick={() => handleCategorySelect(category)}
                 className={`${category.color} text-white p-6 rounded-2xl font-semibold text-lg shadow-lg hover:scale-105 transition-transform flex items-center justify-between`}
               >
                 <div className="flex items-center space-x-3">
