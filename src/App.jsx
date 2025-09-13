@@ -533,7 +533,7 @@ const handleCategorySelect = (category) => {
     return (
       <div className="min-h-screen bg-gray-50">
         {/* Navbar */}
-        <nav className="w-full p-4 bg-white shadow-sm">
+        <nav className="w-full p-4 bg-white shadow-sm bg-gradient-to-br from-blue-600 via-violet-600 to-purple-600">
           <div className="flex justify-center">
             <img  img src="/vite.svg"
       alt="Logo" className="text-2xl font-bold text-gray-800 cursor-pointer" onClick={() => setCurrentPage('landing')}>
@@ -570,7 +570,7 @@ const handleCategorySelect = (category) => {
     return (
       <div className="min-h-screen bg-gray-50">
         {/* Navbar */}
-        <nav className="w-full p-4 bg-white shadow-sm">
+        <nav className="w-full p-4 bg-white shadow-sm bg-gradient-to-br from-blue-600 via-violet-600 to-purple-600">
           <div className="flex justify-center">
             <img  img src="/vite.svg"
       alt="Logo" className="text-xl font-bold text-gray-800 cursor-pointer" onClick={() => setCurrentPage('landing')}>
